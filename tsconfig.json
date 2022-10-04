@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "strict": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "watch": true,
+    "declaration": true,
+    "noImplicitAny": false, // 防止对象隐式具有'任何'类型
+    "strictNullChecks": false,
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "public"]
+}
